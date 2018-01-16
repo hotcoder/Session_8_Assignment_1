@@ -1,0 +1,28 @@
+Problem​ ​Statement​ ​1:
+
+Blood glucose levels for obese patients have a mean of 100 with a standard deviation of
+15. A researcher thinks that a diet high in raw cornstarch will have a positive effect on
+blood glucose levels. A sample of 36 patients who have tried the raw cornstarch diet
+have a mean glucose level of 108. Test the hypothesis that the raw cornstarch had an
+effect or not.
+
+
+Ans ) 
+
+	claim  : Blood glucose levels for obese patients have a mean of 100 ,  that is Mu  = 100 thats H(0) null hypothesis
+	Opp : Mu not equal 100 , H(1) alternative Hypothesis
+
+	Population Standard Deviation : 15
+
+	Sample Size = Number of Patients = 36 
+
+	Sample mean = X-bar = 108
+
+	Z-score = ( X-bar - Mu ) / (sigma/sqrt(sample size))
+
+	Z-Score = (108-100)/(15/sqrt(36)) = 8/2.5 = 3.2
+
+	Note : this is two tail test 
+
+	Significance level taken as 0.5  so alpha/2 = 0.025  = z critical value is 1.96 , since out calculated z-score is above 1.96 , we are
+	rejecting the null hypothesis , so we are accepting that raw cornstarch had an effect.
